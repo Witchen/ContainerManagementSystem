@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\containermanagementsystemdefault.mdf;Initial Catalog=containermanagementsystemdefault;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\JuniorXR\\documents\\visual\ studio\ 2017\\Projects\\ContainerManagementSystem\\ContainerManagementSystem\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="CMSConnectionString-Web.config Connection String" description="CMSConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\containermanagementsystemdata1.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\JuniorXR\\documents\\visual\ studio\ 2017\\Projects\\ContainerManagementSystem\\ContainerManagementSystem\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CMSConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="CMSSqlServer2014-Web.config Connection String" description="CMSSqlServer2014 Connection String used in web.config by the application to access the database." defaultValue="Data Source=localhost;Initial Catalog=newcmsdatabasesql;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\JuniorXR\\documents\\visual\ studio\ 2017\\Projects\\ContainerManagementSystem\\ContainerManagementSystem\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CMSSqlServer2014']/@connectionString" />
+  </parameter>
+  <parameter name="AzureConnection-Web.config Connection String" description="AzureConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:container-management-sqldb.database.windows.net,1433;Initial Catalog=container-management-sqldb;Persist Security Info=False;User ID=sqldbadmin;Password=demo@pass123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\JuniorXR\\documents\\visual\ studio\ 2017\\Projects\\ContainerManagementSystem\\ContainerManagementSystem\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureConnection']/@connectionString" />
+  </parameter>
+</parameters>
